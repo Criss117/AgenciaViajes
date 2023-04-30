@@ -1,0 +1,29 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Sobre Nosotros Agencia de viajes", class="img-fluid ")
+            .col-md-7
+                h1 #{pagina}
+                strong ¡Bienvenidos a Nuestra Agencia de Viajes!
+
+                p En nuestra agencia de viajes, nos apasiona brindar experiencias inolvidables a nuestros clientes. Nuestro equipo está conformado por expertos en viajes, apasionados y conocedores de los destinos más fascinantes del mundo. Nos enorgullece ofrecer una amplia gama de opciones y servicios personalizados para satisfacer todas las expectativas de nuestros viajeros.
+
+                p Valoramos la individualidad de cada cliente y nos esforzamos por diseñar itinerarios únicos y adaptados a sus preferencias y necesidades. Trabajamos en estrecha colaboración con una red de proveedores de servicios turísticos confiables, lo que nos permite ofrecer una amplia variedad de opciones de alojamiento, transporte, tours y actividades.
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.md-4 Seguridad 
+                    p En nuestra agencia de viajes, tu seguridad es nuestra prioridad. Trabajamos con proveedores confiables y seguimos las regulaciones actualizadas para ofrecerte una experiencia de viaje segura y protegida.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.md-4 Mejores destinos
+                    p En nuestra agencia de viajes, ofrecemos una amplia variedad de destinos para todos los gustos. ¡Descubre el lugar perfecto para tu próxima aventura!
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.md-4 Los mejores precios 
+                    p En nuestra agencia de viajes, nos esforzamos por ofrecerte los mejores precios en tus viajes. Trabajamos diligentemente para negociar tarifas competitivas con nuestros proveedores y aprovechar ofertas especiales.
